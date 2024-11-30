@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #222;
+  }
+  
+  p {
+    color: #555;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+}
+  
+  a.btn, button.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a.btn:hover, button.btn:hover {
+    background: #0056b3;
+  }
+  
+  /* About Myself Section */
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f8f9fa;
+  }
+  
+  .about-content {
+    max-width: 50%;
+  }
+  
+  .skills {
+    max-width: 40%;
+  }
+  .languages {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .language-item {
+    text-align: center;
+  }
+  
+  .language-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Me Section */
+  .contact {
+    background: #e6f0ff;
+    background-image:url(assets/contact form background shapes@2x.png) ;
+    background-image:url(assets/Contact me.png) ;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact button {
+    background: #007BFF;
+    color: #fff;
+  }
+  
