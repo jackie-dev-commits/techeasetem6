@@ -1,0 +1,226 @@
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 35px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: red;
+}
+.home{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 2px 2% 0;
+    background-image: url('assets/header-shapes\ mobile.png');
+
+    
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h1 h3{
+    font-size: 56px;
+    font-weight: 800;
+    color: black;
+    line-height: 4.0;
+    gap: 0;
+    
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    color: rgb(100, 98, 98);
+
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+    transition: -5s;
+}
+.home-content{
+    position: absolute;
+}
+.home-content a{
+    display: inline-flex;
+    bottom: 40px;
+    background: transparent;
+}
+
+.tonic{
+    background-color: rgb(252, 249, 249);
+    display: flex;
+    flex-direction: row ;
+    height: 60vh;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 85%;
+    padding: 2em;
+    
+}
+.tonic .main1{
+    width: 40%;
+}
+.tonic .main2{
+    width: 55%;
+}
+.main1 img{
+    padding: 2em;
+}
+.main2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    padding: 20px;
+}
+.main2 h3{
+    font-size: 30px;
+    font-weight: 400;
+    gap: 3;
+    padding-bottom: 20px;
+}
+.main2 button{
+    bottom: 40px;
+    border: 2px solid ;
+    border-color: rgb(4, 70, 70);
+    background-color: blue;
+    max-width: 200px;
+}
+.main2 p button{
+    padding: 20px;
+    background-color: white;
+}
+.stories{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 95%;
+    padding: 2em 0;
+}
+.stories .item1{
+    width:55%
+}
+.stories .item2{
+    width: 40%;
+}
+.item1 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.item h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.item1 button{
+    bottom: 40px;
+    border: 2px solid ;
+    border-color: rgb(4, 70, 70);
+    background-color: blue;
+    max-width: 200px;
+}
+.item1 p button{
+    padding: 20px;
+    background-color: white;
+}
+main::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.more{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 95%;
+}
+.more .more1{
+    width: 55%;
+}
+.more .more2{
+    width: 40%;
+}
+.more2 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.more2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.more2 p button{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(17, 17, 199);
+}
+.ubernavigation{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 95%;
+}
+.ubernavigation .uber1{
+    width: 55%;
+}
+.ubernavigation .uber2{
+    width: 40%;
+}
+.uber1 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.uber1 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.uber1 button{
+    background-color: rgb(92, 86, 99);
+}
+.uber1 p button{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(251, 251, 252);
+}
+.uber2 img{
+    padding: 2em;
+}
